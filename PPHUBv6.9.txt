@@ -1,0 +1,338 @@
+-- v6.9
+
+-- Instances:
+
+local PPHubV2 = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local ScriptsHub = Instance.new("TextButton")
+local Scripts = Instance.new("Frame")
+local NoClip = Instance.new("TextButton")
+local NoRecoil = Instance.new("TextButton")
+local InfiniteYeild = Instance.new("TextButton")
+local FPSGUIv2 = Instance.new("TextButton")
+local FPSGUIv2TB = Instance.new("TextButton")
+local ArsenalLegitGUI = Instance.new("TextButton")
+local KillRoblox = Instance.new("TextButton")
+local Empty2 = Instance.new("TextButton")
+local Empty3 = Instance.new("TextButton")
+local Empty4 = Instance.new("TextButton")
+local Empty5 = Instance.new("TextButton")
+local Empty6 = Instance.new("TextButton")
+local Empty7 = Instance.new("TextButton")
+local Empty8 = Instance.new("TextButton")
+local Empty9 = Instance.new("TextButton")
+local Border = Instance.new("Frame")
+local Welcome = Instance.new("Frame")
+local WelcomeMessage = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Border2 = Instance.new("Frame")
+local Border3 = Instance.new("Frame")
+
+--Properties:
+
+PPHubV2.Name = "PPHubV2"
+PPHubV2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+PPHubV2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Background.Name = "Background"
+Background.Parent = PPHubV2
+Background.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Background.BorderSizePixel = 0
+Background.Position = UDim2.new(0.117346942, 0, 0.214421242, 0)
+Background.Size = UDim2.new(0, 600, 0, 300)
+Background.Active = true
+Background.Draggable = true
+
+ScriptsHub.Name = "ScriptsHub"
+ScriptsHub.Parent = Background
+ScriptsHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsHub.BackgroundTransparency = 1.000
+ScriptsHub.Position = UDim2.new(-0.00166666671, 0, 0.0933333039, 0)
+ScriptsHub.Size = UDim2.new(0, 122, 0, 30)
+ScriptsHub.Font = Enum.Font.SourceSansLight
+ScriptsHub.Text = "Scripts"
+ScriptsHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsHub.TextScaled = true
+ScriptsHub.TextSize = 14.000
+ScriptsHub.TextWrapped = true
+ScriptsHub.MouseButton1Click:connect(function()
+	Welcome.Visible = false
+	Scripts.Visible = true
+end)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Background
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.203333333, 0, 0, 0)
+Scripts.Size = UDim2.new(0, 478, 0, 300)
+Scripts.Visible = false
+
+NoClip.Name = "NoClip"
+NoClip.Parent = Scripts
+NoClip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoClip.BackgroundTransparency = 1.000
+NoClip.Position = UDim2.new(0, 0, 0.0266666673, 0)
+NoClip.Size = UDim2.new(0, 142, 0, 37)
+NoClip.Font = Enum.Font.SourceSansLight
+NoClip.Text = "No Clip"
+NoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoClip.TextScaled = true
+NoClip.TextSize = 35.000
+NoClip.TextWrapped = true
+NoClip.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/peegv9K3"))()
+end)
+
+NoRecoil.Name = "NoRecoil"
+NoRecoil.Parent = Scripts
+NoRecoil.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoRecoil.BackgroundTransparency = 1.000
+NoRecoil.Position = UDim2.new(0.341004193, 0, 0.0266666673, 0)
+NoRecoil.Size = UDim2.new(0, 142, 0, 37)
+NoRecoil.Font = Enum.Font.SourceSansLight
+NoRecoil.Text = "No Recoil"
+NoRecoil.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoRecoil.TextScaled = true
+NoRecoil.TextSize = 35.000
+NoRecoil.TextWrapped = true
+NoRecoil.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/s5EYLgtX"))()
+end)
+
+InfiniteYeild.Name = "InfiniteYeild"
+InfiniteYeild.Parent = Scripts
+InfiniteYeild.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYeild.BackgroundTransparency = 1.000
+InfiniteYeild.Position = UDim2.new(0.679916322, 0, 0.0266666673, 0)
+InfiniteYeild.Size = UDim2.new(0, 142, 0, 37)
+InfiniteYeild.Font = Enum.Font.SourceSansLight
+InfiniteYeild.Text = "Inf Yeild"
+InfiniteYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYeild.TextScaled = true
+InfiniteYeild.TextSize = 35.000
+InfiniteYeild.TextWrapped = true
+InfiniteYeild.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+FPSGUIv2.Name = "FPSGUIv2"
+FPSGUIv2.Parent = Scripts
+FPSGUIv2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FPSGUIv2.BackgroundTransparency = 1.000
+FPSGUIv2.Position = UDim2.new(0, 0, 0.24000001, 0)
+FPSGUIv2.Size = UDim2.new(0, 142, 0, 37)
+FPSGUIv2.Font = Enum.Font.SourceSansLight
+FPSGUIv2.Text = "FPS GUI v2"
+FPSGUIv2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSGUIv2.TextScaled = true
+FPSGUIv2.TextSize = 35.000
+FPSGUIv2.TextWrapped = true
+FPSGUIv2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/iHwFpXWa"))()
+end)
+
+FPSGUIv2TB.Name = "FPSGUIv2TB"
+FPSGUIv2TB.Parent = Scripts
+FPSGUIv2TB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FPSGUIv2TB.BackgroundTransparency = 1.000
+FPSGUIv2TB.Position = UDim2.new(0.341004193, 0, 0.24000001, 0)
+FPSGUIv2TB.Size = UDim2.new(0, 142, 0, 37)
+FPSGUIv2TB.Font = Enum.Font.SourceSansLight
+FPSGUIv2TB.Text = "FPS GUI v2 TB"
+FPSGUIv2TB.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSGUIv2TB.TextScaled = true
+FPSGUIv2TB.TextSize = 35.000
+FPSGUIv2TB.TextWrapped = true
+FPSGUIv2TB.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/esCkCp8t'))()
+end)
+
+ArsenalLegitGUI.Name = "ArsenalLegitGUI"
+ArsenalLegitGUI.Parent = Scripts
+ArsenalLegitGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArsenalLegitGUI.BackgroundTransparency = 1.000
+ArsenalLegitGUI.Position = UDim2.new(0.679916322, 0, 0.24000001, 0)
+ArsenalLegitGUI.Size = UDim2.new(0, 142, 0, 37)
+ArsenalLegitGUI.Font = Enum.Font.SourceSansLight
+ArsenalLegitGUI.Text = "Arsenal Legit"
+ArsenalLegitGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArsenalLegitGUI.TextScaled = true
+ArsenalLegitGUI.TextSize = 35.000
+ArsenalLegitGUI.TextWrapped = true
+ArsenalLegitGUI.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("http://clutch-host.tk/arsenal-clutch-loader"))()
+end)
+
+KillRoblox.Name = "KillRoblox"
+KillRoblox.Parent = Scripts
+KillRoblox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KillRoblox.BackgroundTransparency = 1.000
+KillRoblox.Position = UDim2.new(0, 0, 0.436666667, 0)
+KillRoblox.Size = UDim2.new(0, 142, 0, 37)
+KillRoblox.Font = Enum.Font.SourceSansLight
+KillRoblox.Text = "Kill Roblox"
+KillRoblox.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillRoblox.TextSize = 35.000
+KillRoblox.TextWrapped = true
+KillRoblox.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/M3CWgqn1'),true))()
+end)
+
+Empty2.Name = "Empty2"
+Empty2.Parent = Scripts
+Empty2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Empty2.BackgroundTransparency = 1.000
+Empty2.Position = UDim2.new(0.341004193, 0, 0.436666667, 0)
+Empty2.Size = UDim2.new(0, 142, 0, 37)
+Empty2.Font = Enum.Font.SourceSansLight
+Empty2.Text = "Empty"
+Empty2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty2.TextSize = 35.000
+Empty2.TextWrapped = true
+
+Empty3.Name = "Empty3"
+Empty3.Parent = Scripts
+Empty3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Empty3.BackgroundTransparency = 1.000
+Empty3.Position = UDim2.new(0.679916322, 0, 0.436666667, 0)
+Empty3.Size = UDim2.new(0, 142, 0, 37)
+Empty3.Font = Enum.Font.SourceSansLight
+Empty3.Text = "Empty"
+Empty3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty3.TextSize = 35.000
+Empty3.TextWrapped = true
+
+Empty4.Name = "Empty4"
+Empty4.Parent = Scripts
+Empty4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Empty4.BackgroundTransparency = 1.000
+Empty4.Position = UDim2.new(0, 0, 0.643333316, 0)
+Empty4.Size = UDim2.new(0, 142, 0, 37)
+Empty4.Font = Enum.Font.SourceSansLight
+Empty4.Text = "Empty"
+Empty4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty4.TextSize = 35.000
+Empty4.TextWrapped = true
+
+Empty5.Name = "Empty5"
+Empty5.Parent = Scripts
+Empty5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Empty5.BackgroundTransparency = 1.000
+Empty5.Position = UDim2.new(0.341004193, 0, 0.643333316, 0)
+Empty5.Size = UDim2.new(0, 142, 0, 37)
+Empty5.Font = Enum.Font.SourceSansLight
+Empty5.Text = "Empty"
+Empty5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty5.TextSize = 35.000
+Empty5.TextWrapped = true
+
+Empty6.Name = "Empty6"
+Empty6.Parent = Scripts
+Empty6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Empty6.BackgroundTransparency = 1.000
+Empty6.Position = UDim2.new(0.679916322, 0, 0.643333316, 0)
+Empty6.Size = UDim2.new(0, 142, 0, 37)
+Empty6.Font = Enum.Font.SourceSansLight
+Empty6.Text = "Empty"
+Empty6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty6.TextSize = 35.000
+Empty6.TextWrapped = true
+
+Empty7.Name = "Empty7"
+Empty7.Parent = Scripts
+Empty7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Empty7.BackgroundTransparency = 1.000
+Empty7.Position = UDim2.new(0, 0, 0.823333323, 0)
+Empty7.Size = UDim2.new(0, 142, 0, 37)
+Empty7.Font = Enum.Font.SourceSansLight
+Empty7.Text = "Empty"
+Empty7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty7.TextSize = 35.000
+Empty7.TextWrapped = true
+
+Empty8.Name = "Empty8"
+Empty8.Parent = Scripts
+Empty8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Empty8.BackgroundTransparency = 1.000
+Empty8.Position = UDim2.new(0.341004193, 0, 0.823333323, 0)
+Empty8.Size = UDim2.new(0, 142, 0, 37)
+Empty8.Font = Enum.Font.SourceSansLight
+Empty8.Text = "Empty"
+Empty8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty8.TextSize = 35.000
+Empty8.TextWrapped = true
+
+Empty9.Name = "Empty9"
+Empty9.Parent = Scripts
+Empty9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Empty9.BackgroundTransparency = 1.000
+Empty9.Position = UDim2.new(0.679916322, 0, 0.823333323, 0)
+Empty9.Size = UDim2.new(0, 142, 0, 37)
+Empty9.Font = Enum.Font.SourceSansLight
+Empty9.Text = "Empty"
+Empty9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty9.TextSize = 35.000
+Empty9.TextWrapped = true
+
+Border.Name = "Border"
+Border.Parent = Background
+Border.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Border.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Border.BorderSizePixel = 0
+Border.Position = UDim2.new(0.201666668, 0, 0, 0)
+Border.Size = UDim2.new(0, 1, 0, 300)
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Background
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BackgroundTransparency = 1.000
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0.203333333, 0, 0, 0)
+Welcome.Size = UDim2.new(0, 478, 0, 300)
+
+WelcomeMessage.Name = "WelcomeMessage"
+WelcomeMessage.Parent = Welcome
+WelcomeMessage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeMessage.BackgroundTransparency = 1.000
+WelcomeMessage.Position = UDim2.new(0, 0, 0.286666662, 0)
+WelcomeMessage.Size = UDim2.new(0, 478, 0, 127)
+WelcomeMessage.Font = Enum.Font.SourceSansLight
+WelcomeMessage.Text = "Welcome PP Hub v2"
+WelcomeMessage.TextColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeMessage.TextScaled = true
+WelcomeMessage.TextSize = 14.000
+WelcomeMessage.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Background
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0, 0, 0.893333316, 0)
+Close.Size = UDim2.new(0, 121, 0, 32)
+Close.Font = Enum.Font.SourceSansLight
+Close.Text = "Kill GUI"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Click:Connect(function()
+	Background.Visible = false
+end)
+
+Border2.Name = "Border2"
+Border2.Parent = Background
+Border2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Border2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Border2.BorderSizePixel = 0
+Border2.Position = UDim2.new(0, 0, 0.893333316, 0)
+Border2.Size = UDim2.new(0, 121, 0, 1)
+
+Border3.Name = "Border3"
+Border3.Parent = Background
+Border3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Border3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Border3.BorderSizePixel = 0
+Border3.Position = UDim2.new(-0.00166666671, 0, 0.216666624, 0)
+Border3.Size = UDim2.new(0, 121, 0, 1)
