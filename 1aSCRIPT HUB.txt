@@ -1,0 +1,190 @@
+-- peepeepoopoo
+-- Version: 4.6
+
+-- Instances:
+
+local PenisHub = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local NoClip = Instance.new("TextButton")
+local NoRecoil = Instance.new("TextButton")
+local ArsenalLegitGUI = Instance.new("TextButton")
+local FPSGUIV2 = Instance.new("TextButton")
+local INFYeild = Instance.new("TextButton")
+local EMPTY = Instance.new("TextButton")
+local EMPTY_2 = Instance.new("TextButton")
+local FPSGUIV2TEAMBASED = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+PenisHub.Name = "PenisHub"
+PenisHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+PenisHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = PenisHub
+Frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Frame.Position = UDim2.new(0.186892956, 0, 0.116433866, 0)
+Frame.Size = UDim2.new(0, 489, 0, 385)
+Frame.Active = true
+Frame.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Title.Size = UDim2.new(0, 489, 0, 59)
+Title.Font = Enum.Font.Kalam
+Title.Text = "Penis Hub"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 90.000
+Title.TextStrokeTransparency = 0.000
+Title.TextWrapped = true
+Title.Draggable = true
+
+NoClip.Name = "NoClip"
+NoClip.Parent = Frame
+NoClip.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+NoClip.BorderSizePixel = 0
+NoClip.Position = UDim2.new(0.0425422303, 0, 0.233831182, 0)
+NoClip.Size = UDim2.new(0, 200, 0, 50)
+NoClip.Font = Enum.Font.Kalam
+NoClip.Text = "No Clip"
+NoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoClip.TextScaled = true
+NoClip.TextSize = 14.000
+NoClip.TextStrokeTransparency = 0.000
+NoClip.TextWrapped = true
+NoClip.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/peegv9K3"))()
+end)
+
+NoRecoil.Name = "No Recoil"
+NoRecoil.Parent = Frame
+NoRecoil.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+NoRecoil.BorderSizePixel = 0
+NoRecoil.Position = UDim2.new(0.549699664, 0, 0.233831182, 0)
+NoRecoil.Size = UDim2.new(0, 200, 0, 50)
+NoRecoil.Font = Enum.Font.Kalam
+NoRecoil.Text = "No Recoil"
+NoRecoil.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoRecoil.TextScaled = true
+NoRecoil.TextSize = 14.000
+NoRecoil.TextStrokeTransparency = 0.000
+NoRecoil.TextWrapped = true
+NoRecoil.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/s5EYLgtX"))()
+end)
+
+ArsenalLegitGUI.Name = "Arsenal Legit GUI"
+ArsenalLegitGUI.Parent = Frame
+ArsenalLegitGUI.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+ArsenalLegitGUI.BorderSizePixel = 0
+ArsenalLegitGUI.Position = UDim2.new(0.549699664, 0, 0.415649354, 0)
+ArsenalLegitGUI.Size = UDim2.new(0, 200, 0, 50)
+ArsenalLegitGUI.Font = Enum.Font.Kalam
+ArsenalLegitGUI.Text = "Arsenal Legit GUI"
+ArsenalLegitGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArsenalLegitGUI.TextScaled = true
+ArsenalLegitGUI.TextSize = 14.000
+ArsenalLegitGUI.TextStrokeTransparency = 0.000
+ArsenalLegitGUI.TextWrapped = true
+ArsenalLegitGUI.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("http://clutch-host.tk/arsenal-clutch-loader"))()
+end)
+
+FPSGUIV2.Name = "FPS GUI V2"
+FPSGUIV2.Parent = Frame
+FPSGUIV2.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+FPSGUIV2.BorderSizePixel = 0
+FPSGUIV2.Position = UDim2.new(0.0425422303, 0, 0.415649354, 0)
+FPSGUIV2.Size = UDim2.new(0, 200, 0, 50)
+FPSGUIV2.Font = Enum.Font.Kalam
+FPSGUIV2.Text = "FPS GUI V2"
+FPSGUIV2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSGUIV2.TextScaled = true
+FPSGUIV2.TextSize = 14.000
+FPSGUIV2.TextStrokeTransparency = 0.000
+FPSGUIV2.TextWrapped = true
+FPSGUIV2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/iHwFpXWa"))()
+end)
+
+INFYeild.Name = "INF Yeild"
+INFYeild.Parent = Frame
+INFYeild.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+INFYeild.BorderSizePixel = 0
+INFYeild.Position = UDim2.new(0.549699664, 0, 0.597467542, 0)
+INFYeild.Size = UDim2.new(0, 200, 0, 50)
+INFYeild.Font = Enum.Font.Kalam
+INFYeild.Text = "INF Yeild"
+INFYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+INFYeild.TextScaled = true
+INFYeild.TextSize = 14.000
+INFYeild.TextStrokeTransparency = 0.000
+INFYeild.TextWrapped = true
+INFYeild.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+EMPTY.Name = "EMPTY"
+EMPTY.Parent = Frame
+EMPTY.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+EMPTY.BorderSizePixel = 0
+EMPTY.Position = UDim2.new(0.0425422303, 0, 0.779285729, 0)
+EMPTY.Size = UDim2.new(0, 200, 0, 50)
+EMPTY.Font = Enum.Font.Kalam
+EMPTY.Text = "EMPTY"
+EMPTY.TextColor3 = Color3.fromRGB(255, 255, 255)
+EMPTY.TextScaled = true
+EMPTY.TextSize = 14.000
+EMPTY.TextStrokeTransparency = 0.000
+EMPTY.TextWrapped = true
+
+EMPTY_2.Name = "EMPTY"
+EMPTY_2.Parent = Frame
+EMPTY_2.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+EMPTY_2.BorderSizePixel = 0
+EMPTY_2.Position = UDim2.new(0.549699664, 0, 0.779285729, 0)
+EMPTY_2.Size = UDim2.new(0, 200, 0, 50)
+EMPTY_2.Font = Enum.Font.Kalam
+EMPTY_2.Text = "EMPTY"
+EMPTY_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+EMPTY_2.TextScaled = true
+EMPTY_2.TextSize = 14.000
+EMPTY_2.TextStrokeTransparency = 0.000
+EMPTY_2.TextWrapped = true
+
+FPSGUIV2TEAMBASED.Name = "FPS GUI V2 TEAM BASED"
+FPSGUIV2TEAMBASED.Parent = Frame
+FPSGUIV2TEAMBASED.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+FPSGUIV2TEAMBASED.BorderSizePixel = 0
+FPSGUIV2TEAMBASED.Position = UDim2.new(0.0425422303, 0, 0.597467542, 0)
+FPSGUIV2TEAMBASED.Size = UDim2.new(0, 200, 0, 50)
+FPSGUIV2TEAMBASED.Font = Enum.Font.Kalam
+FPSGUIV2TEAMBASED.Text = "FPS GUI V2 TEAM BASED"
+FPSGUIV2TEAMBASED.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSGUIV2TEAMBASED.TextScaled = true
+FPSGUIV2TEAMBASED.TextSize = 14.000
+FPSGUIV2TEAMBASED.TextStrokeTransparency = 0.000
+FPSGUIV2TEAMBASED.TextWrapped = true
+FPSGUIV2TEAMBASED.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/esCkCp8t'))()
+end)
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.899795413, 0, -0.0545454547, 0)
+Close.Size = UDim2.new(0, 56, 0, 60)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "-"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextStrokeTransparency = 0.000
+Close.TextWrapped = true
+Close.MouseButton1Click:Connect(function()
+	Frame.Visible = false
+end)
